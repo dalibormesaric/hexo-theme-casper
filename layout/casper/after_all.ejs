@@ -29,6 +29,9 @@
     }());
 </script>
 <% } %>
+<% if (theme.muut_shortname){ %>
+<script src="//cdn.muut.com/1/moot.min.js"></script>
+<% } %>
 <% if (theme.fancybox){ %>
 <link rel="stylesheet" href="<%- config.root %>modules/fancybox/jquery.fancybox.css" media="screen" type="text/css">
 <script src="<%- config.root %>modules/fancybox/jquery.fancybox.pack.js"></script>

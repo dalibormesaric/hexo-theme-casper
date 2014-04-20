@@ -27,6 +27,9 @@
               <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
           </div>
           <% } %>
+		  <% if(theme.muut_shortname) { %>
+          <a class="muut" href="https://muut.com/i/<%- theme.muut_shortname %>/comments:<%- post.title %>">Comments</a>
+          <% } %>
       </section>
     <footer class="post-footer">
       <section class="author">
